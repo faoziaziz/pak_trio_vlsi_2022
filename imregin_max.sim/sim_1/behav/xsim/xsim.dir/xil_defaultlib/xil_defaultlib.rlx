@@ -1,0 +1,14 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+C:/repo/kuliah/vlsi/imregin_max/imregin_max.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,,,,,,,
+C:/repo/kuliah/vlsi/imregin_max/imregin_max.srcs/sim_1/new/getonezero_tb.v,1671341271,verilog,,,,getonezero_tb,,,,,,,,
+C:/repo/kuliah/vlsi/imregin_max/imregin_max.srcs/sim_1/new/matrix_max_tb.v,1671364838,verilog,,,,matrix_max_tb,,,,,,,,
+C:/repo/kuliah/vlsi/imregin_max/imregin_max.srcs/sim_1/new/matrix_to_matrix_tb.v,1671363740,verilog,,,,matrix_to_matrix_tb,,,,,,,,
+C:/repo/kuliah/vlsi/imregin_max/imregin_max.srcs/sim_1/new/maximum_tbs.v,1671277326,verilog,,,,maximum_tbs,,,,,,,,
+C:/repo/kuliah/vlsi/imregin_max/imregin_max.srcs/sources_1/new/getonezero.v,1671350653,verilog,,C:/repo/kuliah/vlsi/imregin_max/imregin_max.srcs/sources_1/new/matrix_max.v,,getonezero,,,,,,,,
+C:/repo/kuliah/vlsi/imregin_max/imregin_max.srcs/sources_1/new/matrix_max.v,1671350821,verilog,,C:/repo/kuliah/vlsi/imregin_max/imregin_max.srcs/sources_1/new/matrix_to_matrix.v,,matrix_max,,,,,,,,
+C:/repo/kuliah/vlsi/imregin_max/imregin_max.srcs/sources_1/new/matrix_to_matrix.v,1671365076,verilog,,C:/repo/kuliah/vlsi/imregin_max/imregin_max.srcs/sources_1/new/maximum.v,,matrix_to_matrix,,,,,,,,
+C:/repo/kuliah/vlsi/imregin_max/imregin_max.srcs/sources_1/new/maximum.v,1671364619,verilog,,C:/repo/kuliah/vlsi/imregin_max/imregin_max.srcs/sources_1/new/register.v,,maximum,,,,,,,,
+C:/repo/kuliah/vlsi/imregin_max/imregin_max.srcs/sources_1/new/register.v,1671346450,verilog,,C:/repo/kuliah/vlsi/imregin_max/imregin_max.srcs/sim_1/new/matrix_to_matrix_tb.v,,register,,,,,,,,
