@@ -20,9 +20,9 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module maximum (input wire[7:0] a, 
-            input wire[7:0] b, 
-            output reg [7:0] out);
+module maximum (input wire[31:0] a, 
+            input wire[31:0] b, 
+            output reg [31:0] out);
             
   always @* begin
     if (a>=b)

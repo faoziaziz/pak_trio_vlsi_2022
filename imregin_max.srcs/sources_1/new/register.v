@@ -28,8 +28,8 @@ module register
         input wire               rst_n,
         input wire               en,
         input wire               clr,
-        input wire signed [7:0] d,
-        output reg signed [7:0] q
+        input wire signed [31:0] d,
+        output reg signed [31:0] q
     );
     
     always @(posedge clk)

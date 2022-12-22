@@ -21,12 +21,12 @@
 
 
 module matrix_max(
-input [7:0] tengah, n0_0, n0_1, n0_2, n1_0, n1_2, n2_0, n2_1, n2_2, 
+input [31:0] tengah, n0_0, n0_1, n0_2, n1_0, n1_2, n2_0, n2_1, n2_2, 
 input wire clk, rst_n, en, clr,
-output wire[7:0] out_max, onezero );
+output wire[31:0] out_max, onezero );
 
-wire [7:0] max1_out, max2_out, max3_out, max4_out, max5_out, max6_out, max7_out, max8_out, onezero_out;
-wire [7:0] max1_in, max2_in, max3_in,max4_in, max5_in, max6_in, max7_in, max8_in, onezero_in;
+wire [31:0] max1_out, max2_out, max3_out, max4_out, max5_out, max6_out, max7_out, max8_out, onezero_out;
+wire [31:0] max1_in, max2_in, max3_in,max4_in, max5_in, max6_in, max7_in, max8_in, onezero_in;
 // get maximum stage 1
 maximum ma1(n0_0, n0_1, max1_out);
 maximum ma2(n0_2, n1_0, max2_out);

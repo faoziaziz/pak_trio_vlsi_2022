@@ -22,32 +22,34 @@
 
 module matrix_to_matrix(
 input wire clk, rst_n, en, clr,
-input [7:0] m11, m12, m13, m14, m15, m16,
+input [31:0] m11, m12, m13, m14, m15, m16,
 m21, m22, m23, m24, m25, m26,
 m31, m32, m33, m34, m35, m36,
 m41, m42, m43, m44, m45, m46,
 m51, m52, m53, m54, m55, m56,
-m61, m62, m63, m64, m65, m66,
-
-output [7:0] y11, y12, y13, y14, y15, y16,
+m61, m62, m63, m64, m65, m66, 
+output [31:0] y11, y12, y13, y14, y15, y16,
 y21, y22, y23, y24, y25, y26,
 y31, y32, y33, y34, y35, y36,
 y41, y42, y43, y44, y45, y46,
 y51, y52, y53, y54, y55, y56,
-y61, y62, y63, y64, y65, y66
+y61, y62, y63, y64, y65, y66,
+output reg[2:0] counter
     );
     
+  
+    
     /* delcare padding top */
-    reg [7:0] m00=8'd0, m01=8'd0, m02=8'd0, m03=8'd0, m04=8'd0, m05=8'd0, m06=8'd0, m07=8'd0;
+    reg [31:0] m00=8'd0, m01=8'd0, m02=8'd0, m03=8'd0, m04=8'd0, m05=8'd0, m06=8'd0, m07=8'd0;
     /* declare padding left */
-    reg [7:0] m10=8'd0, m20=8'd0, m30=8'd0, m40=8'd0, m50=8'd0, m60=8'd0;
+    reg [31:0] m10=8'd0, m20=8'd0, m30=8'd0, m40=8'd0, m50=8'd0, m60=8'd0;
     /* declare padding rigth */
-    reg [7:0] m17=8'd0, m27=8'd0, m37=8'd0, m47=8'd0, m57=8'd0, m67=8'd0;
+    reg [31:0] m17=8'd0, m27=8'd0, m37=8'd0, m47=8'd0, m57=8'd0, m67=8'd0;
     /* declare padding bottom */
-    reg [7:0] m70=8'd0, m71=8'd0, m72=8'd0, m73=8'd0, m74=8'd0, m75=8'd0, m76=8'd0, m77=8'd0;
+    reg [31:0] m70=8'd0, m71=8'd0, m72=8'd0, m73=8'd0, m74=8'd0, m75=8'd0, m76=8'd0, m77=8'd0;
     
     /* declare buffer input */
-    wire [7:0] w11_in, w12_in, w13_in, w14_in, w15_in, w16_in,
+    wire [31:0] w11_in, w12_in, w13_in, w14_in, w15_in, w16_in,
     w21_in, w22_in, w23_in, w24_in, w25_in, w26_in,
     w31_in, w32_in, w33_in, w34_in, w35_in, w36_in,
     w41_in, w42_in, w43_in, w44_in, w45_in, w46_in,
@@ -55,7 +57,7 @@ y61, y62, y63, y64, y65, y66
     w61_in, w62_in, w63_in, w64_in, w65_in, w66_in;
     
     /* declare buffer output */
-    wire [7:0] w11_out, w12_out, w13_out, w14_out, w15_out, w16_out,
+    wire [31:0] w11_out, w12_out, w13_out, w14_out, w15_out, w16_out,
     w21_out, w22_out, w23_out, w24_out, w25_out, w26_out,
     w31_out, w32_out, w33_out, w34_out, w35_out, w36_out,
     w41_out, w42_out, w43_out, w44_out, w45_out, w46_out,
@@ -63,7 +65,7 @@ y61, y62, y63, y64, y65, y66
     w61_out, w62_out, w63_out, w64_out, w65_out, w66_out;
     
     /* wire register maksimal */
-    wire [7:0] max11_out, max12_out, max13_out, max14_out, max15_out, max16_out,
+    wire [31:0] max11_out, max12_out, max13_out, max14_out, max15_out, max16_out,
     max21_out, max22_out, max23_out, max24_out, max25_out, max26_out,
     max31_out, max32_out, max33_out, max34_out, max35_out, max36_out,
     max41_out, max42_out, max43_out, max44_out, max45_out, max46_out,
@@ -166,5 +168,14 @@ y61, y62, y63, y64, y65, y66
     register reg_max65(clk, rst_n, en, clr, w65_out, y65);
     register reg_max66(clk, rst_n, en, clr, w66_out, y66);
         
+
+    always @ (posedge clk) 
+    begin  
+    if (!rst_n)  
+      counter = 0;  
+    else  
+      counter = counter + 1;  
+  end  
+   
     
 endmodule

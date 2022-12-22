@@ -20,7 +20,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module getonezero(input [7:0] tengah, n0_0, n0_1, n0_2, n1_0, n1_2, n2_0, n2_1, n2_2, max, output reg[7:0] onezero);
+module getonezero(input [31:0] tengah, n0_0, n0_1, n0_2, n1_0, n1_2, n2_0, n2_1, n2_2, max, output reg[31:0] onezero);
 
 
 

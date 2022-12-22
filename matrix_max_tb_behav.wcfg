@@ -3,165 +3,149 @@
    <wave_state>
    </wave_state>
    <db_ref_list>
-      <db_ref path="matrix_to_matrix_tb_behav.wdb" id="1">
+      <db_ref path="axi_wrapper_tb_behav.wdb" id="1">
          <top_modules>
+            <top_module name="axi_wrapper_tb" />
             <top_module name="glbl" />
-            <top_module name="matrix_to_matrix_tb" />
          </top_modules>
       </db_ref>
    </db_ref_list>
    <zoom_setting>
-      <ZoomStartTime time="313.831 ns"></ZoomStartTime>
-      <ZoomEndTime time="1,137.234 ns"></ZoomEndTime>
-      <Cursor1Time time="430.362 ns"></Cursor1Time>
+      <ZoomStartTime time="920.859 ns"></ZoomStartTime>
+      <ZoomEndTime time="1,015.829 ns"></ZoomEndTime>
+      <Cursor1Time time="1,000.000 ns"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
-      <NameColumnWidth column_width="276"></NameColumnWidth>
-      <ValueColumnWidth column_width="112"></ValueColumnWidth>
+      <NameColumnWidth column_width="220"></NameColumnWidth>
+      <ValueColumnWidth column_width="83"></ValueColumnWidth>
    </column_width_setting>
-   <WVObjectSize size="36" />
-   <wvobject fp_name="/matrix_to_matrix_tb/y11" type="array">
-      <obj_property name="ElementShortName">y11[7:0]</obj_property>
-      <obj_property name="ObjectShortName">y11[7:0]</obj_property>
+   <WVObjectSize size="30" />
+   <wvobject fp_name="/axi_wrapper_tb/aclk" type="logic">
+      <obj_property name="ElementShortName">aclk</obj_property>
+      <obj_property name="ObjectShortName">aclk</obj_property>
    </wvobject>
-   <wvobject fp_name="/matrix_to_matrix_tb/y12" type="array">
-      <obj_property name="ElementShortName">y12[7:0]</obj_property>
-      <obj_property name="ObjectShortName">y12[7:0]</obj_property>
+   <wvobject fp_name="/axi_wrapper_tb/aresetn" type="logic">
+      <obj_property name="ElementShortName">aresetn</obj_property>
+      <obj_property name="ObjectShortName">aresetn</obj_property>
    </wvobject>
-   <wvobject fp_name="/matrix_to_matrix_tb/y13" type="array">
-      <obj_property name="ElementShortName">y13[7:0]</obj_property>
-      <obj_property name="ObjectShortName">y13[7:0]</obj_property>
+   <wvobject fp_name="/axi_wrapper_tb/s_axi_arready" type="logic">
+      <obj_property name="ElementShortName">s_axi_arready</obj_property>
+      <obj_property name="ObjectShortName">s_axi_arready</obj_property>
    </wvobject>
-   <wvobject fp_name="/matrix_to_matrix_tb/y14" type="array">
-      <obj_property name="ElementShortName">y14[7:0]</obj_property>
-      <obj_property name="ObjectShortName">y14[7:0]</obj_property>
+   <wvobject fp_name="/axi_wrapper_tb/s_axi_araddr" type="array">
+      <obj_property name="ElementShortName">s_axi_araddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_araddr[31:0]</obj_property>
    </wvobject>
-   <wvobject fp_name="/matrix_to_matrix_tb/y15" type="array">
-      <obj_property name="ElementShortName">y15[7:0]</obj_property>
-      <obj_property name="ObjectShortName">y15[7:0]</obj_property>
+   <wvobject fp_name="/axi_wrapper_tb/s_axi_arvalid" type="logic">
+      <obj_property name="ElementShortName">s_axi_arvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axi_arvalid</obj_property>
    </wvobject>
-   <wvobject fp_name="/matrix_to_matrix_tb/y16" type="array">
-      <obj_property name="ElementShortName">y16[7:0]</obj_property>
-      <obj_property name="ObjectShortName">y16[7:0]</obj_property>
+   <wvobject fp_name="/axi_wrapper_tb/s_axi_awready" type="logic">
+      <obj_property name="ElementShortName">s_axi_awready</obj_property>
+      <obj_property name="ObjectShortName">s_axi_awready</obj_property>
    </wvobject>
-   <wvobject fp_name="/matrix_to_matrix_tb/y21" type="array">
-      <obj_property name="ElementShortName">y21[7:0]</obj_property>
-      <obj_property name="ObjectShortName">y21[7:0]</obj_property>
+   <wvobject fp_name="/axi_wrapper_tb/s_axi_awaddr" type="array">
+      <obj_property name="ElementShortName">s_axi_awaddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_awaddr[31:0]</obj_property>
    </wvobject>
-   <wvobject fp_name="/matrix_to_matrix_tb/y22" type="array">
-      <obj_property name="ElementShortName">y22[7:0]</obj_property>
-      <obj_property name="ObjectShortName">y22[7:0]</obj_property>
+   <wvobject fp_name="/axi_wrapper_tb/s_axi_awvalid" type="logic">
+      <obj_property name="ElementShortName">s_axi_awvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axi_awvalid</obj_property>
    </wvobject>
-   <wvobject fp_name="/matrix_to_matrix_tb/y23" type="array">
-      <obj_property name="ElementShortName">y23[7:0]</obj_property>
-      <obj_property name="ObjectShortName">y23[7:0]</obj_property>
+   <wvobject fp_name="/axi_wrapper_tb/s_axi_bready" type="logic">
+      <obj_property name="ElementShortName">s_axi_bready</obj_property>
+      <obj_property name="ObjectShortName">s_axi_bready</obj_property>
    </wvobject>
-   <wvobject fp_name="/matrix_to_matrix_tb/y24" type="array">
-      <obj_property name="ElementShortName">y24[7:0]</obj_property>
-      <obj_property name="ObjectShortName">y24[7:0]</obj_property>
+   <wvobject fp_name="/axi_wrapper_tb/s_axi_bresp" type="array">
+      <obj_property name="ElementShortName">s_axi_bresp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_bresp[1:0]</obj_property>
    </wvobject>
-   <wvobject fp_name="/matrix_to_matrix_tb/y25" type="array">
-      <obj_property name="ElementShortName">y25[7:0]</obj_property>
-      <obj_property name="ObjectShortName">y25[7:0]</obj_property>
+   <wvobject fp_name="/axi_wrapper_tb/s_axi_bvalid" type="logic">
+      <obj_property name="ElementShortName">s_axi_bvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axi_bvalid</obj_property>
    </wvobject>
-   <wvobject fp_name="/matrix_to_matrix_tb/y26" type="array">
-      <obj_property name="ElementShortName">y26[7:0]</obj_property>
-      <obj_property name="ObjectShortName">y26[7:0]</obj_property>
+   <wvobject fp_name="/axi_wrapper_tb/s_axi_rready" type="logic">
+      <obj_property name="ElementShortName">s_axi_rready</obj_property>
+      <obj_property name="ObjectShortName">s_axi_rready</obj_property>
    </wvobject>
-   <wvobject fp_name="/matrix_to_matrix_tb/y31" type="array">
-      <obj_property name="ElementShortName">y31[7:0]</obj_property>
-      <obj_property name="ObjectShortName">y31[7:0]</obj_property>
+   <wvobject fp_name="/axi_wrapper_tb/s_axi_rdata" type="array">
+      <obj_property name="ElementShortName">s_axi_rdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_rdata[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="isExpanded"></obj_property>
    </wvobject>
-   <wvobject fp_name="/matrix_to_matrix_tb/y32" type="array">
-      <obj_property name="ElementShortName">y32[7:0]</obj_property>
-      <obj_property name="ObjectShortName">y32[7:0]</obj_property>
+   <wvobject fp_name="group455" type="group">
+      <obj_property name="label">mantap</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/axi_wrapper_tb/s_axi_rdata[0]" type="logic">
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">[0]</obj_property>
+      </wvobject>
    </wvobject>
-   <wvobject fp_name="/matrix_to_matrix_tb/y33" type="array">
-      <obj_property name="ElementShortName">y33[7:0]</obj_property>
-      <obj_property name="ObjectShortName">y33[7:0]</obj_property>
+   <wvobject fp_name="/axi_wrapper_tb/s_axi_rresp" type="array">
+      <obj_property name="ElementShortName">s_axi_rresp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_rresp[1:0]</obj_property>
    </wvobject>
-   <wvobject fp_name="/matrix_to_matrix_tb/y34" type="array">
-      <obj_property name="ElementShortName">y34[7:0]</obj_property>
-      <obj_property name="ObjectShortName">y34[7:0]</obj_property>
+   <wvobject fp_name="/axi_wrapper_tb/s_axi_rvalid" type="logic">
+      <obj_property name="ElementShortName">s_axi_rvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axi_rvalid</obj_property>
    </wvobject>
-   <wvobject fp_name="/matrix_to_matrix_tb/y35" type="array">
-      <obj_property name="ElementShortName">y35[7:0]</obj_property>
-      <obj_property name="ObjectShortName">y35[7:0]</obj_property>
+   <wvobject fp_name="/axi_wrapper_tb/s_axi_wready" type="logic">
+      <obj_property name="ElementShortName">s_axi_wready</obj_property>
+      <obj_property name="ObjectShortName">s_axi_wready</obj_property>
    </wvobject>
-   <wvobject fp_name="/matrix_to_matrix_tb/y36" type="array">
-      <obj_property name="ElementShortName">y36[7:0]</obj_property>
-      <obj_property name="ObjectShortName">y36[7:0]</obj_property>
+   <wvobject fp_name="/axi_wrapper_tb/s_axi_wdata" type="array">
+      <obj_property name="ElementShortName">s_axi_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_wdata[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
    </wvobject>
-   <wvobject fp_name="/matrix_to_matrix_tb/y41" type="array">
-      <obj_property name="ElementShortName">y41[7:0]</obj_property>
-      <obj_property name="ObjectShortName">y41[7:0]</obj_property>
+   <wvobject fp_name="/axi_wrapper_tb/s_axi_wstrb" type="array">
+      <obj_property name="ElementShortName">s_axi_wstrb[3:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_wstrb[3:0]</obj_property>
    </wvobject>
-   <wvobject fp_name="/matrix_to_matrix_tb/y42" type="array">
-      <obj_property name="ElementShortName">y42[7:0]</obj_property>
-      <obj_property name="ObjectShortName">y42[7:0]</obj_property>
+   <wvobject fp_name="/axi_wrapper_tb/s_axi_wvalid" type="logic">
+      <obj_property name="ElementShortName">s_axi_wvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axi_wvalid</obj_property>
    </wvobject>
-   <wvobject fp_name="/matrix_to_matrix_tb/y43" type="array">
-      <obj_property name="ElementShortName">y43[7:0]</obj_property>
-      <obj_property name="ObjectShortName">y43[7:0]</obj_property>
+   <wvobject fp_name="/axi_wrapper_tb/dut/m14" type="array">
+      <obj_property name="ElementShortName">m14[31:0]</obj_property>
+      <obj_property name="ObjectShortName">m14[31:0]</obj_property>
    </wvobject>
-   <wvobject fp_name="/matrix_to_matrix_tb/y44" type="array">
-      <obj_property name="ElementShortName">y44[7:0]</obj_property>
-      <obj_property name="ObjectShortName">y44[7:0]</obj_property>
+   <wvobject fp_name="/axi_wrapper_tb/dut/m15" type="array">
+      <obj_property name="ElementShortName">m15[31:0]</obj_property>
+      <obj_property name="ObjectShortName">m15[31:0]</obj_property>
    </wvobject>
-   <wvobject fp_name="/matrix_to_matrix_tb/y45" type="array">
-      <obj_property name="ElementShortName">y45[7:0]</obj_property>
-      <obj_property name="ObjectShortName">y45[7:0]</obj_property>
+   <wvobject fp_name="/axi_wrapper_tb/dut/m16" type="array">
+      <obj_property name="ElementShortName">m16[31:0]</obj_property>
+      <obj_property name="ObjectShortName">m16[31:0]</obj_property>
    </wvobject>
-   <wvobject fp_name="/matrix_to_matrix_tb/y46" type="array">
-      <obj_property name="ElementShortName">y46[7:0]</obj_property>
-      <obj_property name="ObjectShortName">y46[7:0]</obj_property>
+   <wvobject fp_name="/axi_wrapper_tb/aclk" type="logic">
+      <obj_property name="ElementShortName">aclk</obj_property>
+      <obj_property name="ObjectShortName">aclk</obj_property>
    </wvobject>
-   <wvobject fp_name="/matrix_to_matrix_tb/y51" type="array">
-      <obj_property name="ElementShortName">y51[7:0]</obj_property>
-      <obj_property name="ObjectShortName">y51[7:0]</obj_property>
+   <wvobject fp_name="/axi_wrapper_tb/aresetn" type="logic">
+      <obj_property name="ElementShortName">aresetn</obj_property>
+      <obj_property name="ObjectShortName">aresetn</obj_property>
    </wvobject>
-   <wvobject fp_name="/matrix_to_matrix_tb/y52" type="array">
-      <obj_property name="ElementShortName">y52[7:0]</obj_property>
-      <obj_property name="ObjectShortName">y52[7:0]</obj_property>
+   <wvobject fp_name="/axi_wrapper_tb/s_axi_arready" type="logic">
+      <obj_property name="ElementShortName">s_axi_arready</obj_property>
+      <obj_property name="ObjectShortName">s_axi_arready</obj_property>
    </wvobject>
-   <wvobject fp_name="/matrix_to_matrix_tb/y53" type="array">
-      <obj_property name="ElementShortName">y53[7:0]</obj_property>
-      <obj_property name="ObjectShortName">y53[7:0]</obj_property>
+   <wvobject fp_name="/axi_wrapper_tb/dut/process_matrix_0/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
    </wvobject>
-   <wvobject fp_name="/matrix_to_matrix_tb/y54" type="array">
-      <obj_property name="ElementShortName">y54[7:0]</obj_property>
-      <obj_property name="ObjectShortName">y54[7:0]</obj_property>
+   <wvobject fp_name="/axi_wrapper_tb/dut/process_matrix_0/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
    </wvobject>
-   <wvobject fp_name="/matrix_to_matrix_tb/y55" type="array">
-      <obj_property name="ElementShortName">y55[7:0]</obj_property>
-      <obj_property name="ObjectShortName">y55[7:0]</obj_property>
+   <wvobject fp_name="/axi_wrapper_tb/dut/process_matrix_0/en" type="logic">
+      <obj_property name="ElementShortName">en</obj_property>
+      <obj_property name="ObjectShortName">en</obj_property>
    </wvobject>
-   <wvobject fp_name="/matrix_to_matrix_tb/y56" type="array">
-      <obj_property name="ElementShortName">y56[7:0]</obj_property>
-      <obj_property name="ObjectShortName">y56[7:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/matrix_to_matrix_tb/y61" type="array">
-      <obj_property name="ElementShortName">y61[7:0]</obj_property>
-      <obj_property name="ObjectShortName">y61[7:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/matrix_to_matrix_tb/y62" type="array">
-      <obj_property name="ElementShortName">y62[7:0]</obj_property>
-      <obj_property name="ObjectShortName">y62[7:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/matrix_to_matrix_tb/y63" type="array">
-      <obj_property name="ElementShortName">y63[7:0]</obj_property>
-      <obj_property name="ObjectShortName">y63[7:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/matrix_to_matrix_tb/y64" type="array">
-      <obj_property name="ElementShortName">y64[7:0]</obj_property>
-      <obj_property name="ObjectShortName">y64[7:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/matrix_to_matrix_tb/y65" type="array">
-      <obj_property name="ElementShortName">y65[7:0]</obj_property>
-      <obj_property name="ObjectShortName">y65[7:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/matrix_to_matrix_tb/y66" type="array">
-      <obj_property name="ElementShortName">y66[7:0]</obj_property>
-      <obj_property name="ObjectShortName">y66[7:0]</obj_property>
+   <wvobject fp_name="/axi_wrapper_tb/dut/process_matrix_0/clr" type="logic">
+      <obj_property name="ElementShortName">clr</obj_property>
+      <obj_property name="ObjectShortName">clr</obj_property>
    </wvobject>
 </wave_config>
